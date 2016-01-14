@@ -1,3 +1,4 @@
+ruby '2.2.1'
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -10,6 +11,8 @@ end
 
 group :development do
   gem 'sqlite3'
+
+  gem 'letter_opener', '~> 1.4', '>= 1.4.1'
 end
 
 group :development, :test do
@@ -30,3 +33,5 @@ gem 'turbolinks'
 gem 'bootstrap-sass'
 
 gem 'devise'
+
+gem 'figaro'
