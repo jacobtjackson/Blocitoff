@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails blocitoff: test" uuid="bb6859dd-1e4e-40aa-89ff-b95f7e5af29b" />
+    <data-source name="Rails blocitoff: development" uuid="c0c44cc5-76c6-4f05-8aea-b0978e1cab84">
+      <auth-required>false</auth-required>
+    </data-source>
+  </component>
+</project>
