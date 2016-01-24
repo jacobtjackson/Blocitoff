@@ -35,3 +35,5 @@ gem 'bootstrap-sass'
 gem 'devise'
 
 gem 'figaro'
+
+gem 'faker', '~> 1.6', '>= 1.6.1'
