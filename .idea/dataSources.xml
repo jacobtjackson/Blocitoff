@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1245049682">
+  <component name="DataSourceManagerImpl" format="xml" hash="1021826065">
     <data-source source="LOCAL" name="Rails blocitoff: test" uuid="bb6859dd-1e4e-40aa-89ff-b95f7e5af29b">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>

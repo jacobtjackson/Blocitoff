@@ -13,4 +13,20 @@ class ItemsController < ApplicationController
       redirect_to current_user
     end
   end
+
+  def delete
+    @item = Item.find(params[:item])
+    if @item.delete
+      flash[:notice] = "You completed the task!"
+      redirect to current_user
+    else
+      flash[:alert] = "There was an error in completing the task."
+      redirect to current_user
+    end
+
+    respond_to do |format|
+      format.html
+      format.js
+    end
+  end
 end
