@@ -14,14 +14,14 @@ class ItemsController < ApplicationController
     end
   end
 
-  def delete
-    @item = Item.find(params[:item])
-    if @item.delete
+  def destroy
+    @user = User.find(params[:user_id])
+    @item = @user.items.find(params[:id])
+
+    if @item.destroy
       flash[:notice] = "You completed the task!"
-      redirect to current_user
     else
       flash[:alert] = "There was an error in completing the task."
-      redirect to current_user
     end
 
     respond_to do |format|
