@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     resources :items
   end
   get "welcome/index"
+  get "welcome/tasks"
 
   root to: 'welcome#index'
 
